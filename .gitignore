@@ -1,0 +1,41 @@
+# 忽略生成的目标文件
+*.lst
+*.bak
+*.plg
+*.map
+*.axf
+*.hex
+*.bin
+*.out
+*.lnp
+*.elf
+*.lib
+
+# Keil IDE 自动生成的工程文件
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.log
+*.___sbw
+
+# 中间文件
+*.obj
+*.o
+*.cdb
+*.pdb
+
+# 编译时创建的文件夹
+Objects/
+Output/
+Listings/
+Debug/
+Release/
+
+# 通用文件忽略
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Windows 系统生成文件
+desktop.ini
